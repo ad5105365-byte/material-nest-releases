@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "download_url": "https://github.com/ad5105365-byte/material-nest-releases/releases/download/v1.0.3/MaterialNest-1.0.3-Setup.exe",
-  "sha256": "5c32e9a99dd753981aefe6bd3d945bf0ce460ed0cd7904f7dc7ad7a8ef92f5ca",
-  "notes": "支持停止扫描并更换目录、独立移除根目录、软件内新手教学及完整导入结果提示；修复素材库默认空白和计数刷新，移除固定分类栏。"
+  "version": "1.0.4",
+  "download_url": "https://github.com/ad5105365-byte/material-nest-releases/releases/download/v1.0.4/MaterialNest-1.0.4-Setup.exe",
+  "sha256": "91815aaa1349acaa9afb5042c9620e44802d88504e34ad55c936a09bae75b527",
+  "notes": "空闲时隐藏扫描提示框；素材库保留已加载列表，切换页面无需重新加载，导入或调整目录后自动刷新。"
 }
