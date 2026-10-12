@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>素材小窝｜测试版安装与使用说明</title>
+<style>
+:root{color-scheme:light;--ink:#243541;--muted:#667985;--blue:#66a9ba;--pale:#edf7f9;--line:#dbe9ed}*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#f7fbfc,#eaf5f8);color:var(--ink);font:16px/1.75 "Microsoft YaHei UI",sans-serif}.page{width:min(900px,calc(100% - 32px));margin:28px auto 60px}.hero,.card{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:20px;box-shadow:0 12px 36px rgba(45,91,105,.08)}.hero{padding:34px}.hero h1{margin:0 0 10px;font-size:32px}.hero p{margin:0;color:var(--muted)}.privacy,.tip,.warnbox{margin-top:18px;padding:14px 16px;border-radius:12px;background:var(--pale)}.privacy{font-weight:700}.warnbox{background:#fff6ee;border:1px solid #f1dfce;color:#765239}.card{margin-top:16px;padding:24px 28px}.card h2{margin:0 0 12px;font-size:21px}.card h3{margin:18px 0 5px;font-size:16px}.card p{margin:6px 0;color:var(--muted)}.card ul,.card ol{padding-left:24px;margin:8px 0}.card li{margin:5px 0}.step{display:grid;grid-template-columns:36px 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--line)}.step:first-of-type{border-top:0}.num{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800}.step h3{margin:0 0 3px}.step p{margin:0;color:var(--muted)}.good{color:#39785f;font-weight:700}.small{font-size:14px;color:var(--muted)}code{font:14px Consolas,monospace;background:#f3f6f7;padding:2px 5px;border-radius:4px}footer{text-align:center;margin-top:24px;color:var(--muted);font-size:13px}@media(max-width:600px){.hero,.card{padding:21px}.hero h1{font-size:26px}}
+</style></head>
+<body><main class="page">
+<section class="hero"><h1>素材小窝安装与使用说明</h1><p>Windows 10 / 11（64 位）· 1.0.1 测试版</p><p>按步骤安装和试用即可，不需要安装 Python。</p><div class="privacy">🔒 私人素材、索引和偏好数据保存在这台电脑的当前 Windows 用户目录，不上传、不与其他人同步。</div><p class="small">软件检查更新或下载安装包时会访问公开 GitHub 通道，下载和更新都不需要 GitHub 帐号。网络访问失败时，可直接使用分享者发来的新版安装包。</p><p class="small">本版仅供作者邀请的亲友个人测试，版权署名：叮咚。未经作者书面同意，请勿转卖、公开转发安装包或修改版、改名冒充或商业分发；转发给新测试者前请先征得作者同意。完整许可见随附的《软件版权与测试许可.txt》。</p></section>
+<section class="card"><h2>安装前先了解</h2><p>安装软件本身建议预留几分钟；这是准备时间，不是不同电脑上实测的保证。安装不会自动扫描全部素材，扫描耗时另算。</p><ul><li>适用于 Windows 10/11 64 位。安装包包含运行所需组件，不依赖 Python。</li><li>程序文件安装在程序目录；个人索引、设置和台账保存在 <code>%LOCALAPPDATA%\MaterialNest</code>。安装程序不会把你的素材集中到一个统一目录。</li><li>每个人的素材文件夹组织可以不同；支持添加多个素材根目录。</li><li>安装时 Photoshop 可以保持打开，建议先保存正在编辑的文件。扫描素材时不需要启动 Photoshop。</li><li>如果 Windows 显示额外安全提示，先确认安装包确实来自你信任的分享者，再按提示选择继续；不需要关闭防病毒软件。</li></ul></section>
+<section class="card"><h2>一、安装并首次打开</h2>
+<div class="step"><span class="num">1</span><div><h3>运行测试版安装包</h3><p>双击分享者提供的“素材小窝 1.0.1 测试版”安装包，按安装向导操作。建议保留桌面快捷方式。</p></div></div>
+<div class="step"><span class="num">2</span><div><h3>选择自己的素材文件夹</h3><p>首次打开后，选择一个常用的 PSD / PSB 文件夹。若素材分开放在几个位置，可以逐个添加多个根目录；不必先整理成统一结构。</p></div></div>
+<div class="step"><span class="num">3</span><div><h3>先从小范围扫描</h3><p>首次扫描没有固定时长。先选包含约 30–50 个常用文件的小目录计时，再根据体验逐步添加更大的文件夹，不建议第一次就扫描整块硬盘。</p></div></div>
+</section>
+<section class="card"><h2>二、扫描时的注意事项</h2><p>素材小窝会在本机逐个读取 PSD / PSB 的图层信息和缩略图，不会启动或调用 Photoshop。它不是 AI 工具，也不会联网生成标签；如果文件的图层名比较笼统，关键词搜索结果也会受影响。</p><div class="warnbox"><b>首次扫描可能明显占用 CPU、内存和磁盘，电脑可能变慢。</b>大型 PSD/PSB 或较慢的硬盘可能需要很久，无法承诺固定耗时或完全不卡顿。</div><ul><li>不要移动、重命名，或覆盖保存正在扫描的 PSD / PSB 文件。</li><li>扫描期间尽量不要用 Photoshop 批量打开很多大型文件。可以编辑其他文档；如果感觉明显卡顿，先等扫描完成。</li><li>不要拔掉素材所在硬盘，也不要让电脑休眠或在扫描期间更新软件。</li><li>扫描结束后再逐步加入更大的目录。遇到个别文件失败或缺缩略图时，记录操作步骤和提示信息即可；反馈时可附日志位置，无需发送 PSD / PSB 文件。</li></ul><p class="tip"><span class="good">默认不开启“翻图”。</span>这次测试可先使用素材库的搜索和查看功能。</p></section>
+<section class="card"><h2>三、日常试用</h2>
+<div class="step"><span class="num">1</span><div><h3>搜索素材</h3><p>在《素材库》输入关键词查找已扫描素材。关键词是否好用，取决于文件和图层本身的命名信息。</p></div></div>
+<div class="step"><span class="num">2</span><div><h3>打开或定位文件</h3><p>用《PS 打开》需要你自己安装 Photoshop，并在 Windows 中正确关联 PSD / PSB 文件；素材小窝不附带 Photoshop。也可用《定位文件夹》查看原文件所在位置。</p></div></div>
+<div class="step"><span class="num">3</span><div><h3>加入新素材</h3><p>把新文件放到已添加的素材目录，再运行扫描更新索引。</p></div></div>
+<div class="step"><span class="num">4</span><div><h3>购买台账（可选测试）</h3><p>可以用少量、不重要的记录试用购买台账，不需要录入全部购买记录。待整理线索功能尚未开放。</p></div></div>
+</section>
+<section class="card"><h2>四、检查更新与个人数据</h2><ul><li>软件启动后会检查更新，使用期间每半小时复查一次；有新版会提示，可到《设置》→《检查更新》→《下载并安装》操作。软件不会未经点击自行安装；检查和下载不需要 GitHub 帐号。网络连接失败时，可直接收到新版安装包后覆盖安装。</li><li>安装新版时素材小窝会关闭并由安装程序更新；安装器不会要求关闭 Photoshop，但请先保存正在编辑的文件。若在线下载失败，可使用分享者提供的新安装包覆盖安装，不必先卸载。</li><li>原始 PSD / PSB 文件留在你选择的目录中。卸载前如要保留索引、设置和台账，请不要手动删除 <code>%LOCALAPPDATA%\MaterialNest</code>。</li></ul></section>
+<section class="card"><h2>遇到问题时</h2><p>请记下发生问题前的操作步骤、相关页面、错误提示，以及日志文件的位置或日志内容（通常在 <code>%LOCALAPPDATA%\MaterialNest\运行日志.txt</code>；发送前可以遮住个人路径和文件名）。无需把 PSD / PSB 素材发给分享者。测试版仍可能有缺缩略图或个别文件处理失败等问题，欢迎反馈具体情况。</p></section>
+<footer>素材小窝 · 本地优先的个人素材库 · 测试版说明</footer>
+</main></body></html>
