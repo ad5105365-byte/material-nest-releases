@@ -2,7 +2,7 @@
 
 作者：叮咚。Windows 10/11 64 位，不需要 Python 或 GitHub 帐号。
 
-[下载安装包](https://github.com/ad5105365-byte/material-nest-releases/releases/download/v1.0.2/MaterialNest-1.0.2-Setup.exe) · [安装使用教程](https://github.com/ad5105365-byte/material-nest-releases/releases/download/v1.0.2/Installation-Guide.html)
+[下载安装包](https://github.com/ad5105365-byte/material-nest-releases/releases/download/v1.0.3/MaterialNest-1.0.3-Setup.exe) · [安装使用教程](https://github.com/ad5105365-byte/material-nest-releases/releases/download/v1.0.3/Installation-Guide.html)
 
 # 素材小窝 1.0.2 更新｜免费分享
 
