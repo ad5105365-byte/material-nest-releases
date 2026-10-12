@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "download_url": "https://github.com/ad5105365-byte/material-nest-releases/releases/download/v1.0.1/MaterialNest-1.0.1-Setup.exe",
-  "sha256": "d5c1cc118bd24010e66c905404fdbae63a331f62532637e00c667b43e849cde3",
-  "notes": "亲友测试版：首次扫描支持 PSD/PSB 并生成缩略图；软件启动及使用期间检查新版；购买台账可选，待整理线索尚未开放。"
+  "version": "1.0.2",
+  "download_url": "https://github.com/ad5105365-byte/material-nest-releases/releases/download/v1.0.2/MaterialNest-1.0.2-Setup.exe",
+  "sha256": "e8c9d50132757f847d7144693a7ae060459d1d325c02ba669efc2c701a7876dc",
+  "notes": "免费分享版：调整分享说明和教程，保留叮咚署名；软件功能和本地数据处理方式不变。"
 }
